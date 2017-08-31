@@ -44,6 +44,7 @@ vorpal
   .option('-p, --pass [pass]', 'Domain admin password.')
   .option('--url [url]', 'URL for Active Directory.')
   .option('--port [port]', 'Port to listen on.')
+  .option('--domain [domain]', 'Domain (if not implied by user)')
   .action(function(args, cbk) {
     init(args);
     cbk();
