@@ -23,7 +23,7 @@
     "addict-cli": "./bin/index.js"
   },
   "dependencies": {
-    "ad": "^0.3.1",
+    "ad": "git://github.com/tony-kerz/ad.git#tk/tweaks",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "node-ssha256": "^0.1.1",
